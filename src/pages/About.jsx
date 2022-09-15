@@ -1,6 +1,6 @@
 /** @format */
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaInstagram, FaYoutube, FaFacebookSquare, FaReact, FaNodeJs, FaNpm, FaYarn, FaHtml5, FaCss3, FaBootstrap, FaMarkdown, FaFigma, FaTrello } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaFacebookSquare, FaReact, FaNodeJs, FaNpm, FaYarn, FaHtml5, FaCss3, FaBootstrap, FaMarkdown, FaFigma, FaTrello } from 'react-icons/fa';
 import { SiNextdotjs, SiTailwindcss, SiAdobeillustrator, SiNetlify, SiPostman } from 'react-icons/si';
 
 import profileImage from '../assets/images/rio.jpg';
@@ -92,15 +92,9 @@ const myLink = [
 		style: 'text-4xl text-pink-500 hover:text-pink-600',
 	},
 	{
-		name: 'Youtube',
-		icon: <FaYoutube />,
-		link: 'https://camo.githubusercontent.com/3c9da2a98062b49d867ccd9ca1d11e7b2ebc1201031ac97eddf42cca8d365b5f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f596f75547562652d2532334646303030302e7376673f6c6f676f3d596f7554756265266c6f676f436f6c6f723d7768697465',
-		style: 'text-4xl text-red-500 hover:text-red-600',
-	},
-	{
 		name: 'Facebook',
 		icon: <FaFacebookSquare />,
-		link: 'https://camo.githubusercontent.com/6507b6af1fa0c23a32321b4594fe0f353fc56a2e6721ea67a5f51cd830c85b61/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46616365626f6f6b2d2532333138373746322e7376673f6c6f676f3d46616365626f6f6b266c6f676f436f6c6f723d7768697465',
+		link: 'https://www.facebook.com/rio.dwisyahputra.3',
 		style: 'text-4xl text-blue-700 hover:text-blue-800',
 	},
 ];
